@@ -25,8 +25,7 @@ This program requires Kafka with "test" topic created.
 
 ## Usage
 
-KafkaConnector <kafka> <batchinterval>
-
+    KafkaConnector <kafka> <batchinterval>
     <kafka> is the list of one or more Kafka links. Separator ","
         EX: 127.0.0.1:9092
     <batchinterval> batch interval of minisecond - optional
